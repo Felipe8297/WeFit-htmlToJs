@@ -1,0 +1,50 @@
+.row-menu {
+  display: flex;
+  justify-content: center; /* Centraliza o menu horizontalmente */
+  margin-left: -15px;
+}
+
+.btn-group {
+  margin-top: 10px; /* Adiciona um espaçamento acima do menu */
+}
+
+.btn-secondary {
+  margin-right: 10px; /* Adiciona um espaçamento entre os botões */
+  border-radius: 8px; /* Adiciona um border-radius aos botões */
+}
+
+.row-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: -15px;
+}
+
+.jumbotron {
+  margin: 0 auto;
+  text-align: right;
+  background-color: #6c757d;
+  color: white;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  margin-right: 0;
+}
+
+.row-card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
